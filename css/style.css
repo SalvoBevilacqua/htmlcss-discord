@@ -15,7 +15,10 @@ body {
 }
 
 :root {
-    --background_header: #255ee9;;
+    --background_header: #255ee9;
+    --violet: rgb(114 137 218);
+
+    /* DEBUG */
     --background_blue: rgb(0 0 139);
     --background_grey: rgb(211 211 211);
     --background_pink: rgb(255 192 203);
@@ -215,13 +218,24 @@ main > div {
 
 .big .button_download {
     color: white;
-    background-color: rgb(114 137 218);
+    background-color: var(--violet);
     margin-bottom: 5rem;
 }
 
+.language {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin: 1.5rem 0;
+}
 
+.flag {
+    width: 10%;
+    vertical-align: middle;
+}
 
-
+.color_violet {
+    color: var(--violet);
+}
 
 
 .footer {
@@ -246,10 +260,19 @@ main > div {
 }
 
 #footer_major {
+    padding: 1rem;
     flex-grow: 1;
     background-color: var(--background_pink);
     /* DEBUG */
     border: 2px dashed black;
+}
+
+#footer_major i {
+    margin-right: .6rem;
+}
+
+.footer_list li {
+    margin: 1rem 0;
 }
 
 footer {
@@ -257,11 +280,12 @@ footer {
     padding-top: 1.5rem;
     /* DEBUG */
     border-top: 1px solid white;
-    border-bottom: 1px solid white;
 }
 
 footer > div {
+    /* debug */
     background-color: var(--background_acqua);
+    border-top: 1px solid var(--violet);
     padding: 1rem 0;
     justify-content: space-between;
 }
@@ -273,4 +297,20 @@ footer > div > span {
 
 main > div:nth-child(even) {
     background-color: var(--background_grey);
-  }
+}
+
+.register {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.register span {
+    display: inline-block;
+    color: white;
+    background-color: var(--violet);
+    width: 5rem;
+    height: 2.3rem;
+    text-align: center;
+    line-height: 2.3rem;
+    border-radius: 1rem;
+}
