@@ -149,6 +149,7 @@ main > div {
 
 .subtitle {
     font-size: 3rem;
+    font-weight: 700;
 }
 
 .minor > p {
@@ -173,6 +174,7 @@ main > div {
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    font-weight: 700;
 
 }
 
@@ -246,9 +248,9 @@ main > div:nth-child(even) {
     display: inline-block;
     color: white;
     background-color: var(--violet);
-    width: 5rem;
+    width: 6rem;
     height: 2.3rem;
     text-align: center;
     line-height: 2.3rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
