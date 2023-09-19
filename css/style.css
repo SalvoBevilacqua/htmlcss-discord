@@ -66,7 +66,6 @@ ul {
     color: black;
     background-color: white;
     width: 5rem;
-    height: 2.3rem;
     text-align: center;
     line-height: 2.3rem;
     border-radius: 2rem;
@@ -105,7 +104,6 @@ ul {
     color: black;
     background-color: white;
     width: 14rem;
-    height: 4rem;
     text-align: center;
     line-height: 4rem;
     border-radius: 2rem;
@@ -114,7 +112,6 @@ ul {
 .button_open_discord {
     display: inline-block;
     width: 22rem;
-    height: 4rem;
     text-align: center;
     line-height: 4rem;
     border-radius: 2rem;
@@ -168,7 +165,6 @@ main > div {
 .little_title {
     /* transform: rotate(180deg); */
     width: 40%;
-    height: 4rem;
     line-height: 4rem;
     margin: 2rem auto;
     background-image: url(../img/stars.svg);
@@ -249,7 +245,6 @@ main > div:nth-child(even) {
     color: white;
     background-color: var(--violet);
     width: 6rem;
-    height: 2.3rem;
     text-align: center;
     line-height: 2.3rem;
     border-radius: 2rem;
