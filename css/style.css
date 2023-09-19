@@ -151,30 +151,78 @@ h1 {
     padding-bottom: 2rem;
 }
 
+main {
+    padding-top: 5rem;
+}
+
 main > div {
     padding: 1rem 0;
 }
 
 .major {
-    background-color: var(--background_ciano);
     /* DEBUG */
-    height: 300px;
+    background-color: var(--background_ciano);    
+    /* height: 300px; */
     width: 60%;
+    text-align: right;
 }
 
 .minor {
     background-color: var(--background_pink);
     /* DEBUG */
-    height: 300px;
+    min-height: 300px;
     width: 40%;
+    text-align: left;
+    padding: 3rem;
+    color: black;
 }
+
+.subtitle {
+    font-size: 3rem;
+}
+
+.minor > p {
+    margin-top: 2rem;
+}
+
+/* .item1 {
+    text-align: right;
+} */
 
 .big {
     background-color: rgb(76, 167, 76);
     /* DEBUG */
     border: 2px dashed black;
-    height: 500px;
+    text-align: center;
+    /* height: 500px; */
 }
+
+.big > p {
+    margin-top: 2rem;
+}
+
+.little_title {
+    /* transform: rotate(180deg); */
+    width: 40%;
+    height: 4rem;
+    line-height: 4rem;
+    margin: 2rem auto;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.big .button_download {
+    color: white;
+    background-color: rgb(114 137 218);
+    margin-bottom: 5rem;
+}
+
+
+
+
+
 
 .footer {
     background-color: var(--background_darkgrey);
